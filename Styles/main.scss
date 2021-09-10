@@ -6,6 +6,10 @@
     background-color: tan;
     h1 {
         color: #ddd;
+        // Bonus 1
+        &:hover {
+            @extend %center;
+        }
     }
     h2 {
         background-color: $brown1;
