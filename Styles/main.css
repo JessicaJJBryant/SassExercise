@@ -25,6 +25,7 @@
 
 .minor h1 {
   text-decoration: underline;
+  margin-bottom: calc(25px * 4);
 }
 
 .minor h2 {
