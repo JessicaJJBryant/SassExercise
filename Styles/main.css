@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.main {
+  background-color: tan;
+}
+
+.main h1 {
+  color: #ddd;
+}
+/*# sourceMappingURL=main.css.map */
