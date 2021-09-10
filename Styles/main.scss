@@ -4,6 +4,8 @@
 // 2, 3, 7
 .main {
     background-color: tan;
+    // Bonus 3.B
+    @include flex(space-between, center);
     h1 {
         color: #ddd;
         // Bonus 1
@@ -17,6 +19,10 @@
     h3 {
         color: $brown1;
     }
+    // Bonus 3.C
+    h4 {
+        display: none;
+    }
 }
 // 8-10, 12
 .minor {
@@ -24,6 +30,7 @@
     h1 {
         text-decoration: underline;
         @extend %center;
+        // Bonus 2
         margin-bottom: calc(25px * 4);
     }
     h2 {

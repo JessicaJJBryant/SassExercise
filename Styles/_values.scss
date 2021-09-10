@@ -6,3 +6,9 @@ $brown1: #964B00;
     text-align: center;
     padding: 20px;
 }
+// Bonus 3.A
+@mixin flex ($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
